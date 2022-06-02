@@ -1,0 +1,132 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    background-color: #C4D8F2;
+    box-sizing: border-box;
+    color:grey
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+  
+    
+    
+}
+
+.container .orkut{
+
+ width: 500px;
+height: 267px;
+background-color: white;
+margin-right: 10px;
+position: relative;
+}
+
+.container .orkut h1{
+    color: #F252BA;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family:monospace;
+}
+
+.container .orkut p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.container .login{
+
+    width: 250px;
+    height: 200px;
+    background-color: #DCE6F2;
+    border: 2px solid white;
+    font-size: 15px;
+    position: relative;
+}
+.container .login h2{
+  font-size: 12px;
+justify-content: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: flex;
+ font-family: 'Times New Roman', Times, serif
+}
+
+.container .login  .inputs{
+
+    text-align:center ;
+    margin-top: 5px;
+     
+   
+}
+
+#checkbox{
+    margin-top: 10px;
+}
+
+#button{
+    margin-top: 15px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.container .membro{
+
+    width: 250px;
+    height: 50px;
+    background-color: #DCE6F2;
+    border: 2px solid white;
+    position: relative;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-left:-253px;
+    text-align: center;
+  
+}
+
+.container .membro p,a{
+    margin-top: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+    margin-top: 5px;
+
+    
+ 
+        
+}
+
+.footer span{
+   margin-right: 10px; 
+   
+}
+
+.footer li{
+    display: inline-block;
+    text-decoration: none;
+  
+}
+
+
+
+
+
+
